@@ -1,0 +1,22 @@
+.DS_Store
+node_modules
+/ расстояние
+
+# локальные файлы env
+.env.local
+.env. * .локальный
+
+# Файлы журнала
+npm-debug.log *
+пряжа-debug.log *
+пряжа-error.log *
+pnpm-debug.log *
+
+# Редактировать каталоги и файлы
+.идея
+.vscode
+* .суо
+* .нтвс *
+* .njsproj
+* .sln
+* .sw ?
