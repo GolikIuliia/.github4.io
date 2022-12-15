@@ -3,21 +3,21 @@ const personGenerator = {
         "count": 15,
         "list": {
             "id_1": "Иванов",
-            "id_2": "Смирнов",
-            "id_3": "Кузнецов",
+            "id_2": "Андреев",
+            "id_3": "Сергеев",
             "id_4": "Васильев",
             "id_5": "Петров",
             "id_6": "Михайлов",
-            "id_7": "Новиков",
+            "id_7": "Юрьев",
             "id_8": "Федоров",
-            "id_9": "Кравцов",
+            "id_9": "Максимов",
             "id_10": "Николаев",
             "id_11": "Семёнов",
-            "id_12": "Развожаев",
+            "id_12": "Романов",
             "id_13": "Степанов",
-            "id_14": "Аксёнов",
+            "id_14": "Павлов",
             "id_15": "Александров",
-            "id_16": "Морозов"
+            "id_16": "Платонов"
         }
     }`,
     thirdNameJson: `{  
@@ -28,7 +28,7 @@ const personGenerator = {
             "id_3": "Константинов",
             "id_4": "Васильев",
             "id_5": "Петров",
-            "id_6": "Михайлов",
+            "id_6": "Михайл",
             "id_7": "Сергеев",
             "id_8": "Федоров",
             "id_9": "Максимов",
@@ -92,7 +92,7 @@ const personGenerator = {
             "id_1": "Медсестра",
             "id_2": "Учитель",
             "id_3": "Дизайнер",
-            "id_4": "Париксахер",
+            "id_4": "Парикмахер",
             "id_5": "Косметолог",
             "id_6": "Продавец",
             "id_7": "Домохозяйка",
@@ -188,10 +188,10 @@ const personGenerator = {
 
     randomThirdName: function() {        
         if (this.person.gender == this.GENDER_MALE) {
-           return this.randomValue(this.surnameJson) + 'ович';
+           return this.randomValue(this.surnameJson) + 'ич';
         }
         else
-           return this.randomValue(this.surnameJson) + 'овна';
+           return this.randomValue(this.surnameJson) + 'на';
     },
 
     randomProfes: function() {
