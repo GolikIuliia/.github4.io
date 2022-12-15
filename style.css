@@ -17,8 +17,22 @@ body {
 }
 
 button {
-    background-color: #e29299;
-    border-color: rgb(255, 0, 8);
+    margin-top: 20px;
+    margin-left: 80px;
+    line-height: 38px;
+    font-size: 93%;
+    padding: 0 60px;
+    background: white;
+    border: 2px solid rgb(112, 182, 234);
+    border-radius: 35px;
+    
+    position: relative;
+    left: 45%;
+    transform: translate(-55%, 0);
+  }
+
+button::first-line {
+    color: #276db3;
 }
     
 
